@@ -8,10 +8,10 @@ Orden para asignar estilos:
 */
 :root {
     /* Colores */
-    --bitcoin-orange: #f7931a;
-    --soft-orange: #ffe9d4;
-    --secondary-blue: #1a9af7;
-    --soft-blue: #e7f5ff;
+    --primary-color: #f7931a;
+    --primary-color-soft: #ffe9d4;
+    --secondary-color: #1a9af7;
+    --secondary-color-soft: #e7f5ff;
     --warm-black: #201e1c;
     --black: #282623;
     --grey: #bababa;
