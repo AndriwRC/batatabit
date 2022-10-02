@@ -135,13 +135,27 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    gap: 50px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table, .main-profit-table {
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+}
+.main-currency-table {
+    margin-left: calc(50vw - 115px);
+}
+.main-profit-table {
+    margin-right: calc(50vw - 115px);
 }
 .currency-table--title {
     margin-bottom: 15px;
