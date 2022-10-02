@@ -1,0 +1,6 @@
+.plans-container--slider {
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow-x: unset;
+}
